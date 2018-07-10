@@ -1,3 +1,8 @@
+@font-face{
+	font-family: "beachfont";
+	src: local("@"), url("fonts/beach_font.ttf") format("truetype");
+}
+
 body{
 	background-color: rgba(122, 122, 122, 0.55);
 	background-image: url(img/bg_img.png);
@@ -8,12 +13,12 @@ h1{
 	color: #8609C5;
 }
 
-h2{
-@font-face
+h3{
+	font-family: beachfont;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.28)
 }
 
 img{
-	opacity: 0,1;
 	border: 2px solid black;
 	box-shadow: 1px 2px 5px red;
 }
@@ -22,8 +27,10 @@ img:hover {
 	border: solid yellow 2px;
 }
 
-p{
-	border: solid 2px black;
+h2{
+	text-align: center;
+	font-weight: 100;
+	color: rgba(0,0,0,0.1);
 }
 
 .active:active{
