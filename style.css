@@ -1,0 +1,40 @@
+body{
+	background-color: rgba(122, 122, 122, 0.55);
+	background-image: url(img/bg_img.png);
+}
+
+h1{
+	text-align: center;
+	color: #8609C5;
+}
+
+h2{
+@font-face
+}
+
+img{
+	opacity: 0,1;
+	border: 2px solid black;
+	box-shadow: 1px 2px 5px red;
+}
+
+img:hover {
+	border: solid yellow 2px;
+}
+
+p{
+	border: solid 2px black;
+}
+
+.active:active{
+	border: 2px solid red;
+	
+}
+
+.focus:focus{
+	border: 2px dotted red;
+}
+
+.visited:visited{
+	border: dashed 2px aqua;
+}
