@@ -19,19 +19,6 @@ body{
 	background-image: url(img/bg_img.png);
 }
 
-img{
-	border: 2px solid black;
-	box-shadow: 1px 2px 5px 2px #444;
-}
-
-.imgLink{
-	margin-right: 5px;
-	margin-left: 20px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	float: right;
-}
-
 h1{
 	font-family: beachFont, serif;
 	font-size: 3em;
@@ -40,7 +27,6 @@ h1{
 }
 
 h2{
-	clear: both;
 	font-family: caviarDream, serif;
 	font-size: 1.4em;
 	color: rgb(77, 77, 77);
@@ -48,7 +34,6 @@ h2{
 }
 
 h3{
-	margin-top: 30px;
 	font-family: caviarDream, serif;
 	color: rgb(77, 77, 77);
 	text-shadow: 1px 2px 1px rgb(134, 134, 134)
@@ -57,4 +42,16 @@ h3{
 li{
 	font: 0.9em dayroman, serif;
 	color: #333
+}
+
+img{
+	border: 2px solid black;
+	box-shadow: 1px 2px 5px 2px #444;
+}
+
+.imgLink{
+	display: flex;
+	position: absolute;
+	top: 10px;
+	right: 10px;
 }
