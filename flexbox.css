@@ -52,3 +52,14 @@
 .content:nth-child(6){
     background-color: crimson;
 }
+
+.content:nth-last-child(1){
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeLink:hover{
+    font-weight: bold;
+}
