@@ -74,7 +74,7 @@
     background-color: #38ada9;
 }
 
-.content:nth-last-child(1){
+.content:nth-child(12){
     background-color: #0c2461;
     display: flex;
     justify-content: center;
