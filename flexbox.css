@@ -1,0 +1,54 @@
+@font-face{
+	font-family: "beachFont";
+	src: local("@"), url("fonts/beach_font.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "caviarDream";
+	src: local("@"), url("fonts/CaviarDreams_Bold.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "dayRoman";
+	src: local("@"), url("fonts/day_roman.ttf") format("truetype");
+}
+
+.container{
+    background-color: rgba(12, 12, 12, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
+.content{
+    background-color: rgb(0, 132, 255);
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    border: black 2px solid;
+
+}
+
+.content:nth-child(1){
+    background-color: coral;
+}
+
+.content:nth-child(2){
+    background-color: green;
+}
+
+.content:nth-child(3){
+    background-color: aqua;
+}
+
+.content:nth-child(4){
+    background-color: blueviolet;
+}
+
+.content:nth-child(5){
+    background-color: brown;
+}
+
+.content:nth-child(6){
+    background-color: crimson;
+}
