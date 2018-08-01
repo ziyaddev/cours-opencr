@@ -17,49 +17,77 @@
     background-color: rgba(12, 12, 12, 0.3);
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
+    align-content: space-around;
+    justify-content: center;
 }
 
 .content{
     background-color: rgb(0, 132, 255);
     width: 200px;
     height: 100px;
-    margin: auto;
+    margin: 10px;
     border: black 2px solid;
 
 }
 
 .content:nth-child(1){
-    background-color: coral;
+    background-color: #e55039;
 }
 
 .content:nth-child(2){
-    background-color: green;
+    background-color: #3c6382;
 }
 
 .content:nth-child(3){
-    background-color: aqua;
+    background-color: #4a69bd;
 }
 
 .content:nth-child(4){
-    background-color: blueviolet;
+    background-color: #fa983a;
 }
 
 .content:nth-child(5){
-    background-color: brown;
+    background-color: #38ada9;
 }
 
 .content:nth-child(6){
-    background-color: crimson;
+    background-color: #f8c291;
+}
+
+.content:nth-child(7){
+    background-color: #e55039;
+}
+
+.content:nth-child(8){
+    background-color: #3c6382;
+}
+
+.content:nth-child(9){
+    background-color: #4a69bd;
+}
+
+.content:nth-child(10){
+    background-color: #fa983a;
+}
+
+.content:nth-child(11){
+    background-color: #38ada9;
 }
 
 .content:nth-last-child(1){
-    background-color: white;
+    background-color: #0c2461;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.homeLink{
+    font-family: caviarDream;
+    color: #bebebe;
+    font-size: 1.2em;
+}
+
 .homeLink:hover{
-    font-weight: bold;
+    color: #eee;
+    font-size: 1.3em;
 }
