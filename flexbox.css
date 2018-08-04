@@ -81,13 +81,13 @@
     align-items: center;
 }
 
-.homeLink{
+.link{
     font-family: caviarDream;
     color: #bebebe;
     font-size: 1.2em;
 }
 
-.homeLink:hover{
+.link:hover{
     color: #eee;
     font-size: 1.3em;
 }
