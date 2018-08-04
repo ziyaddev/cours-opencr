@@ -70,11 +70,14 @@
     background-color: #fa983a;
 }
 
-.content:nth-child(11){
+.content:nth-child(12){
     background-color: #38ada9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.content:nth-child(12){
+.content:nth-child(13){
     background-color: #0c2461;
     display: flex;
     justify-content: center;
