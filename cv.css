@@ -1,0 +1,71 @@
+@font-face{
+	font-family: "beachFont";
+	src: local("@"), url("fonts/beach_font.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "caviarDream";
+	src: local("@"), url("fonts/CaviarDreams_Bold.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "dayRoman";
+	src: local("@"), url("fonts/day_roman.ttf") format("truetype");
+}
+
+body{
+	margin: 2em;
+}
+
+.imgContainer{
+	position: relative;
+	}
+
+.imgLink{
+/*
+	position: absolute;
+	top: 10px;
+*/
+	right: 10px;
+	float: right;
+	margin: 10px;
+	}
+
+img{
+	border: 2px solid black;
+	box-shadow: 1px 2px 5px 2px #444;
+}
+
+body{
+	font-size: 1em;
+	background-color: rgba(122, 122, 122, 0.55);
+	background-image: url(img/bg_img.png);
+}
+
+h1{
+	padding-top: 30px;
+	font-family: beachFont, serif;
+	font-size: 3em;
+	text-align: center;
+	color: #9b68b4;
+}
+
+h2{
+	font-family: caviarDream, serif;
+	font-size: 1.4em;
+	color: rgb(77, 77, 77);
+	text-align: center;
+}
+
+h3{
+	clear: both;
+	font-family: caviarDream, serif;
+	color: rgb(77, 77, 77);
+	text-shadow: 1px 2px 1px rgb(134, 134, 134)
+}
+
+li{
+	font: 0.9em dayroman, serif;
+	color: #333
+}
+
